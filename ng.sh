@@ -7,4 +7,3 @@ unzip ngrok.zip > /dev/null 2>&1
 wget -O ng.sh https://raw.githubusercontent.com/nokian5500-dev/w-colab/main/ng.sh > /dev/null 2>&1
 ./ngrok authtoken 2Rk6SooaDaU3eAg38Do6nrGzCR6_7coiHGLAhZyGX59WzFSZm
 
-./ngrok 2Rk6SooaDaU3eAg38Do6nrGzCR6_7coiHGLAhZyGX59WzFSZm
