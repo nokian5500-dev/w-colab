@@ -2,7 +2,7 @@ echo "======================="
 echo "Download ngrok"
 echo "======================="
 rm -rf ngrok ngrok.zip ngrok.sh > /dev/null 2>&1
-wget -O ng.sh https://github.com/nokian5500-dev/w-colab/archive/refs/heads/main.zip main.zip && unzip main.zip > /dev/null 2>&1
+wget https://github.com/nokian5500-dev/w-colab/archive/refs/heads/main.zip -O main.zip && unzip main.zip > /dev/null 2>&1
 chmod +x ng.sh
 ./ng.sh
 clear
